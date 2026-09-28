@@ -1,0 +1,11 @@
+{
+  "name": "یاسین گلد آرت | Yasin Gold Art",
+  "short_name": "Yasin Gold Art",
+  "lang": "fa-IR",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16253c",
+  "theme_color": "#16253c",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
