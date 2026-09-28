@@ -34,7 +34,7 @@ export default function App({ section = 'home' }: { section?: string }) {
   const [profileMenu, setProfileMenu] = useState(false);
   const [toast, setToast] = useState('');
   useEffect(() => { try { setCart(JSON.parse(localStorage.getItem('yga-cart') || '[]')); setPurchased(JSON.parse(localStorage.getItem('yga-purchased') || '[]')); setUser(localStorage.getItem('yga-user')); } catch {} }, []);
-  useEffect(() => { if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') navigator.serviceWorker.register('/sw.js').catch(() => {}); }, []);
+  useEffect(() => { if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') navigator.serviceWorker.register('/yasin-gold-art/sw.js', { scope: '/yasin-gold-art/' }).catch(() => {}); }, []);
   useEffect(() => { localStorage.setItem('yga-cart', JSON.stringify(cart)); }, [cart]);
   useEffect(() => { localStorage.setItem('yga-purchased', JSON.stringify(purchased)); }, [purchased]);
   useEffect(() => { if (user) localStorage.setItem('yga-user', user); else localStorage.removeItem('yga-user'); }, [user]);

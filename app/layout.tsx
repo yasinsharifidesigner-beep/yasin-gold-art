@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'یاسین گلد آرت | آموزش و طراحی طلا و جواهر',
   description: 'آموزش تخصصی طراحی سه‌بعدی، فایل‌های آماده صنعتی و سفارش طراحی اختصاصی طلا و جواهر.',
-  manifest: '/manifest.webmanifest'
+  manifest: '/yasin-gold-art/manifest.webmanifest'
 };
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#16253c' };
 
