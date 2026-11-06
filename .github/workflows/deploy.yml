@@ -29,6 +29,7 @@ jobs:
       - name: Build static site
         run: |
           rm -rf app/api
+          sed -i "/export const dynamic/d; /export const revalidate/d" app/page.tsx app/thanks/page.tsx
           npm run build
         env:
           GITHUB_PAGES: "true"
