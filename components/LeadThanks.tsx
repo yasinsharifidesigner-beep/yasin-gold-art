@@ -26,7 +26,7 @@ export default function LeadThanks() {
       <main className="lead-wrap lead-block">
         <p className="lead-kicker">یاسین گلد آرت</p>
         <h1>ثبت‌نام انجام شد</h1>
-        <p>هدیه تو {gift} است. عنوان دقیق این دو قسمت هنوز در پنل گذاشته نشده؛ همین که باشد، از دکمه زیر باز می‌شود.</p>
+        <p>هدیه تو {gift} است. از پنل بازش کن.</p>
         {ready && signedIn && (
           <p>
             <Link className="lead-btn" href="/panel" onClick={() => { track('magnet_opened', 'thanks'); track('activation', 'panel'); }}>

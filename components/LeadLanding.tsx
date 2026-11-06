@@ -157,15 +157,9 @@ export default function LeadLanding() {
           <h2>هدیه ثبت‌نام</h2>
           <div className="lead-card">
             <strong>{gift}</strong>
-            <p>نام دوره و عنوان این دو قسمت هنوز داده نشده. تا وقتی عنوان‌ها مشخص شود، همین عبارت روی صفحه می‌ماند و قسمت‌ها داخل پنل ساخته می‌شوند.</p>
+            <p>بعد از ثبت‌نام، از پنل باز می‌شود.</p>
             <LeadButton state={state} place="magnet" />
           </div>
-        </section>
-
-        <section className="lead-block lead-wrap" aria-label="اعتماد">
-          <h2>اعتماد</h2>
-          <p>نظر، عدد و اینماد وقتی سند واقعی داشته باشند اینجا می‌آیند.</p>
-          <div className="lead-empty" aria-hidden="true" />
         </section>
 
         <section className="lead-block lead-wrap">
@@ -181,7 +175,7 @@ export default function LeadLanding() {
             </details>
             <details>
               <summary>هدیه چیست؟</summary>
-              <p>{gift}. عنوان دقیق دوره را جدا می‌فرستی تا همین‌جا جایگزین شود.</p>
+              <p>{gift}. بعد از ثبت‌نام از پنل باز می‌شود.</p>
             </details>
             <details>
               <summary>اگر قبلاً حساب ساخته‌ام؟</summary>
