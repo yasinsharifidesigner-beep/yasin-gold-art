@@ -1,4 +1,7 @@
 node_modules/
+.tools/
+.env
+.env.local
 .next/
 .tools/
 /github-upload/

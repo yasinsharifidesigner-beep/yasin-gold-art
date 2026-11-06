@@ -10,5 +10,6 @@ const nextConfig = {
       }
     : {}),
   images: { unoptimized: true },
+  ...(pages ? {} : { experimental: { serverComponentsExternalPackages: ['pg'] } }),
 };
 export default nextConfig;
